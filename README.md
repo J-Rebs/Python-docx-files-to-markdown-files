@@ -1,4 +1,4 @@
-Download and use the docx_to_md.py script to convert MS Word (.docx) files to Markdown Files.
+Download and use the docx_to_md.py script to convert MS Word (.docx) files to Markdown Files (.md).
 Run the script in an IDE like Pycharm or VS Code. 
 
 Sources used include:
