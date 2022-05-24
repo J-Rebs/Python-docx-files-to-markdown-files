@@ -4,7 +4,9 @@ Run the script in an IDE like Pycharm or VS Code.
 When you run the script you'll need to update the following in the main method:
 
 FULL_FILE_PATH = the full filepath including the .docx ending of the word file you want to convert
+
 FILE_NAME = the name you want to give the output file, do not included paths or endings (i.e., "output" not "./output.md")
+
 PATH = the folder path where you want to save your output file. 
 
 To be safe, use absolute paths. DO NOT REMOVE the r infront of the variable strings (i.e., r"PATH" not "PATH"). 
