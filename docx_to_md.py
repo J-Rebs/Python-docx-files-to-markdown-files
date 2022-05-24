@@ -34,10 +34,10 @@ def save_markdown(file, file_name, path):
     file_saved.close();
 
 
-# Update PATH and fileName in the below before running
+# Update FULL_FILE_PATH, FILE_NAME, and PATH before running
 if __name__ == '__main__':
-    res_html = convert_html(r"PATH")
+    res_html = convert_html(r"FULL_FILE_PATH")
     print(res_html)
     res_markdown = convert_markdown(res_html)
     print(res_markdown)
-    save_markdown(res_markdown, r"fileName", r"PATH")
+    save_markdown(res_markdown, r"FILE_NAME", r"PATH")
